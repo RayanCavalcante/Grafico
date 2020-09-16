@@ -18,7 +18,7 @@ div.CaixaPrincipal{
 }
 
 div.ColunaValor {
-    
+
     width: auto;
     height: 215px;
 
@@ -72,8 +72,4 @@ div.ColunaDados div {
     min-width: 50px;
     background-color: black;
     border-radius: 5px 5px 0 0;
-}
-
-div.scrollmenu a:hover {
-  background-color: #777;
 }
