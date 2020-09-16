@@ -1,16 +1,38 @@
-div.ColunaValor {
-    overflow: scroll;
-    white-space: nowrap;
-    background-color: transparent;  
-    display:table-cell;
-    align-items: flex-end;
-    border-radius: 10px 0 0 0;
+div.CaixaPrincipal{
+    /*Tamanho*/
+    width: 350px; 
+    height: 245px; 
+
+    /*Fundo*/
+    background-color: white; 
+
+    /*Borda*/
+    border-width: 1px; 
+    border-color: black; 
+    border-style: solid; 
+    border-radius: 10px;
+
+    /*Alinhamento*/
     position: relative; 
+   
+}
+
+div.ColunaValor {
+    
     width: auto;
     height: 215px;
 
-    overflow: hidden;
+    background-color: red;  
 
+    overflow: scroll;
+    white-space: nowrap;
+   
+    border-radius: 10px 0 0 0;
+
+    position: relative; 
+    display:table-cell;
+    align-items: flex-end;  
+    
 }
 
 div.ColunaValor div{
@@ -33,7 +55,7 @@ div.ColunaDados {
 
     overflow-x: unset;
 
-    background-color: transparent;  
+    background-color: green;  
     display: inline-flex;
     align-items: flex-end;
     border-radius: 0px 10px 0px 0px;
