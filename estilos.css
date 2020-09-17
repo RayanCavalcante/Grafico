@@ -65,12 +65,4 @@ div.ColunaDados {
     height: 215px;
 
 }
-
-div.ColunaDados div {
-    display: inline-block;
-    margin-left: 5px;
-    min-width: 50px;
-    background-color: black;
-    border-radius: 5px 5px 0 0;
-    margin-bottom: 30px;
-}
+ 
