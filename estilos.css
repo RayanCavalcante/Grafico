@@ -20,15 +20,12 @@ div.CaixaPrincipal{
 div.ColunaValor {
 
     width: auto;
-    height: 240px;
+    height: 245px;
 
     background-color: red;  
-
     overflow: scroll;
     white-space: nowrap;
-   
     border-radius: 10px 0 0 10px;
-
     position: relative; 
     display:table-cell;
     align-items: flex-end;  
@@ -62,7 +59,21 @@ div.ColunaDados {
     position: relative;
     min-width: 270px;
     width: 290px;
-    height: 215px;
-
+    height: 245px;
 }
  
+.Porcentagem{
+    height: 25%; 
+    background-color: black; 
+    width: 50px;
+    margin: 0px 5px 0px 5px ; 
+    border-radius: 3px 3px 0 0;
+}
+
+.Descricao{
+    height: auto; 
+    background-color: gray;
+     width: 50px;
+     margin: 0px 5px 0px 5px;
+    margin-bottom: 5px;
+}
